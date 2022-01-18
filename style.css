@@ -1,0 +1,71 @@
+body{
+    font-family:   sans-serif;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+    color: #00dd00;
+    margin: 6px 0px 5px 0px;
+}
+
+p {
+    color: white;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background: rgb(0, 0, 0, 0.5);
+    padding: 80px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 200px;
+}
+
+.button-group {
+    background-color: #00dd00;
+    padding: 12px;
+}
+
+.monopattino {
+    font-size: 25px;
+    display: inline-block;
+    color: white;
+    margin-block-end: 5px;
+}
+
+.row1, .row2, .row3{
+    border-radius: 8px;
+    height: 30px;
+}
+
+.row1 {
+    width: 400px;
+    background: #f5b453;
+}
+
+.row2 {
+    width: 610px;
+    background: #1ec31e;
+}
+
+.row3 {
+    width: 200px;
+    background: #be4141;
+}
+
+.simbol:before{
+  content: "\21A6";
+}
